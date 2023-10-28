@@ -1,8 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine On
-RewriteBase /blog/recently
-
-# Route requests to recently/index.php if in the recently directory
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [QSA,L]
