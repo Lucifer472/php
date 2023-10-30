@@ -1,7 +1,7 @@
 <?php
 // Allow cross-origin requests from specific domains
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: https://marcoislandfoundation.org');
+header('Access-Control-Allow-Origin: https://marcoislandfoundation.org,http://localhost:3000');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 

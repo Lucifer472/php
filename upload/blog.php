@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 
 // Allow cross-origin requests from specific domains (e.g., http://example.com)
-header('Access-Control-Allow-Origin: https://marcoislandfoundation.org');
+header('Access-Control-Allow-Origin: https://marcoislandfoundation.org,http://localhost:3000');
 
 // Specify allowed HTTP methods (e.g., GET, POST, OPTIONS)
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
